@@ -1,95 +1,51 @@
-<div align="center">
+<!-- BANNER -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Nati%20Pinyan&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full%20Stack%20%C2%B7%20DevOps%20%26%20Infra%20%C2%B7%20IoT%20%26%20Embedded%20%C2%B7%20AI%2FCV&descAlignY=55&descSize=16" width="100%"/>
+</p>
 
-# Hi, I'm Nati 👋
-
-### Full Stack Developer · DevOps & Infra · IoT & Embedded · AI/CV
-
-[![Profile Views](https://komarev.com/ghpvc/?username=natipinyan&color=0e75b6&style=flat-square&label=Profile+Views)](https://github.com/natipinyan)
-
-</div>
-
----
-
-## About Me
-
-I build end-to-end systems — from bare-metal firmware on ESP32/Arduino all the way up to distributed cloud-native backends and React frontends.
-
-- Designing and deploying full microservice architectures with **Docker** and **Redis**
-- Building real-time streaming pipelines (HLS, UDP/MPEG-TS, FFmpeg)
-- Writing firmware in **C++** for IoT devices and connecting them to production-grade servers
-- Developing full-stack web apps with **React**, **Node.js**, and **MySQL**
-- Working with computer vision workflows (**Python**, **OpenCV**, **YOLO**)
-- Managing **Ubuntu Server** environments, networking, and CI/CD pipelines
+<!-- PROFILE HEADER -->
+<h1 align="center">Hey, I'm Nati Pinyan 👋</h1>
+<h3 align="center"><em>Full Stack · DevOps & Infra · IoT & Embedded · AI/CV</em></h3>
 
 ---
 
-## Tech Stack
+### A little about me
 
-### Languages
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
-
-### Frontend
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-
-### Backend & APIs
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
-
-### DevOps & Infrastructure
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/Ubuntu_Server-E95420?style=flat-square&logo=ubuntu&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-
-### IoT & Embedded
-![Arduino](https://img.shields.io/badge/Arduino-00878A?style=flat-square&logo=arduino&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white)
-![ESP8266](https://img.shields.io/badge/ESP8266-E7352C?style=flat-square&logo=espressif&logoColor=white)
-
-### AI & Computer Vision
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![YOLO](https://img.shields.io/badge/YOLO-00FFFF?style=flat-square&logo=yolo&logoColor=black)
+- Building end-to-end systems — from **ESP32 firmware** all the way up to **distributed microservice backends**
+- Designing real-time pipelines with **Docker**, **Redis**, **FFmpeg** and **HLS**
+- Managing **Ubuntu Server** environments, networking, and full CI/CD flows
+- Exploring computer vision with **Python**, **OpenCV** and **YOLO**
+- Technologies I work with:
+  `React` `TypeScript` `Node.js` `Python` `C++` `MySQL` `Redis` `Docker` `Arduino` `ESP32` `Flutter`
 
 ---
 
-## Featured Projects
+### You can find me at
 
-### Live Video Ingestion & Distribution Pipeline
-> Air-gapped CDN emulation with real-time HLS streaming
-
-A distributed live video pipeline built entirely with Docker microservices. Two FFmpeg streamers push UDP/MPEG-TS into high-speed receivers that write segments to an in-memory Redis store. An authenticated API gateway serves an edge server with its own Redis cache layer, which finally serves HLS to a browser UI — all with sub-second latency.
-
-`TypeScript` `Docker` `Redis` `FFmpeg` `HLS` `UDP` `Microservices` `React`
-
-[View Repository →](https://github.com/natipinyan/video-project)
-
----
-
-### Smart Irrigation System (IoT)
-> Full IoT stack: hardware sensors → backend server → SQL database
-
-ESP32/ESP8266 microcontrollers read soil moisture and environmental data in real time and POST it to a Node.js/Express server. The server applies threshold logic to trigger irrigation automatically and persists all telemetry in SQL for long-term analytics.
-
-`C++` `ESP32` `ESP8266` `Arduino` `Node.js` `Express` `SQL`
-
-[View Repository →](https://github.com/natipinyan/IOT)
+<p align="center">
+  <a href="mailto:natipinyan@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+  </a>
+  <a href="https://github.com/natipinyan">
+    <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+</p>
 
 ---
 
-### LectPro — Academic Project Management System
-> Full-stack platform for managing student final projects at Kinneret College
+### Tech Stack
 
-Role-based system for students, instructors, and department heads. Supports file uploads (PDF/Word), JWT cookie auth, rate limiting, email notifications, interactive charts, and full project lifecycle management.
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,ts,js,nodejs,python,cpp,docker,mysql,redis,arduino,linux,git,flutter" />
+</p>
+
+---
+
+### Featured Project — LectPro
+
+> Academic Project Management System built as a final project at Kinneret College
+
+A role-based full-stack platform for students, instructors, and department heads to manage final academic projects — file uploads, JWT auth, email notifications, interactive charts, and full role isolation.
 
 `React 19` `Node.js` `Express` `MySQL` `JWT` `Multer` `Nodemailer`
 
@@ -97,31 +53,39 @@ Role-based system for students, instructors, and department heads. Supports file
 
 ---
 
-### Arduino Clicker Game
-> Embedded system with real-time performance feedback over local network
+### 📊 GitHub Stats
 
-Participants press a button; the system measures press duration, compares it to the stored record, and drives an RGB LED accordingly. The top 10 results are visualized on a local network web interface built directly from the Arduino.
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=natipinyan&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"
+    width="48%"
+    alt="GitHub Stats"
+  />
+</p>
 
-`C++` `Arduino` `HTML` `Local Network`
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=natipinyan&layout=compact&theme=tokyonight"
+    width="48%"
+    alt="Top Languages"
+  />
+</p>
 
-[View Repository →](https://github.com/natipinyan/clicker)
+<p align="center">
+  <img
+    src="https://github-readme-streak-stats.herokuapp.com/?user=natipinyan&theme=tokyonight"
+    width="60%"
+    alt="GitHub Streak"
+  />
+</p>
 
 ---
 
-## GitHub Stats
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=a29bfe&center=true&vCenter=true&width=500&lines=Always+Building.;Always+Shipping.;Always+Learning." />
+</p>
 
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=natipinyan&show_icons=true&theme=github_dark&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=natipinyan&layout=compact&theme=github_dark&hide_border=true&langs_count=8)
-
-</div>
-
----
-
-<div align="center">
-
-*Always building. Always learning.*
-
-</div>
+<!-- FOOTER -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+</p>
