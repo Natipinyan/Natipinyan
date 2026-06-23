@@ -32,19 +32,33 @@ Designed for students, instructors, and department heads to track and manage fin
 
 `React 19` `Node.js` `Express` `MySQL` `JWT` `Multer` `Nodemailer`
 
-[View Repository →](https://github.com/natipinyan/Lectpro)
+[Visit Website →](https://lectpro.co.il)
+
+---
+
+#### Students — Student Registration & Class Assignment System
+
+A server-side management tool built for the secretary's office at Kinneret College.  
+Handles student registration, track assignments, and class distribution — with Excel import/export, file management, and a MySQL database backend.
+
+`Node.js` `Express` `MySQL` `EJS` `Excel` `Swagger`
+
+[View Repository →](https://github.com/natipinyan/students)
 
 ---
 
 ### GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=natipinyan&show_icons=true&theme=tokyonight&count_private=true" width="48%" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=natipinyan&layout=compact&theme=tokyonight" width="48%" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=natipinyan&show_icons=true&theme=tokyonight&count_private=true" width="60%" alt="GitHub Stats" />
 </p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=natipinyan&theme=tokyonight" width="60%" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=natipinyan&layout=compact&theme=tokyonight" width="60%" alt="Top Languages" />
 </p>
 
 ---
